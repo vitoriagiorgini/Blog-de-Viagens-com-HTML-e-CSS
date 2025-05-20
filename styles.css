@@ -1,0 +1,112 @@
+ body {
+            font-family: "Poppins", sans-serif;
+            background-color: #fde8fd;
+            color: #450458;
+            margin: 0;
+            padding: 0;
+        }
+
+          nav {
+            background-color: rgb(255, 219, 255);
+            padding: 15px;
+            text-align: center;
+            font-family: Poppins;
+            font-size: small;
+        }
+
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #e40b91;
+        }
+
+       
+
+        header {
+            color: #450458;
+            text-align: center;
+            padding: 20px;
+        }
+
+         h1 {
+            text-align: center;
+            font-size: 36px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 24px;
+            color: #450458;
+            display: flex;
+        }
+        p{
+            font-size: 14px;
+            color: #450458;
+        }
+
+        .destinos {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    padding: 30px;
+    flex-wrap: wrap; 
+}
+
+
+.box {
+    background-color: rgb(255, 203, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.box p {
+    text-align: justify; /* Justifica apenas os textos */
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 180px;
+}
+
+
+.box:hover {
+    transform: scale(1.05); /* efeito ao passar o mouse */
+}
+
+/* Rodapé simples */
+.highlight {
+            color: #e40b91;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color:rgb(255, 203, 255);
+            color: #450458;
+        }
+
+        i{
+            font-size: 40px;
+            margin: 0 10px;
+            color: #420555;
+           
+        }
+
+        a {
+            color: inherit; 
+            text-decoration: none;
+          }
